@@ -22,6 +22,7 @@
 
     <!--the above linear layout opening tag is not closed  with the '>' symbol-->
     <Button
+        android:id="@+id/button"
         android:layout_width="280dp"
         android:layout_height="60dp"
         android:layout_marginLeft="56dp"
