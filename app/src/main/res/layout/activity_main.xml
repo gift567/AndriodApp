@@ -11,19 +11,31 @@
 
 
     <LinearLayout
-        android:layout_width="300dp"
+        android:layout_width="400dp"
         android:layout_height="600dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
-        android:background="@color/white"
-        />
+        android:backgroundTint="@color/white"
+        android:background="@drawable/customshape"
+
+        >
+
     <!--the above linear layout opening tag is not closed  with the '>' symbol-->
     <Button
-        android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="500dp"
+android:text="Done"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@drawable/customshape"
+
+
 
         />
-
+</LinearLayout>
 
 
 </LinearLayout>
