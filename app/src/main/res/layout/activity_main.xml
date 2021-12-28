@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/blue"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
 
     <LinearLayout
@@ -15,13 +16,16 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="30dp"
         android:background="@color/white"
+        />
     <!--the above linear layout opening tag is not closed  with the '>' symbol-->
     <Button
         android:layout_width="300dp"
         android:layout_height="100dp"
 
         />
-    / >
+
 
 
 </LinearLayout>
+
+
